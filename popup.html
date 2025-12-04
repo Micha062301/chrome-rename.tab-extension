@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      width: 250px;
+      padding: 15px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    h3 { margin-top: 0; color: #333; }
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      width: 100%;
+      padding: 8px;
+      background-color: #4285f4;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-bottom: 5px;
+    }
+    button:hover { background-color: #357ae8; }
+    #resetBtn { background-color: #e0e0e0; color: #333; }
+    #resetBtn:hover { background-color: #d5d5d5; }
+  </style>
+</head>
+<body>
+  <h3>Rename Tab</h3>
+  <input type="text" id="nameInput" placeholder="Enter new name...">
+  <button id="renameBtn">Set Name</button>
+  <button id="resetBtn">Reset</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
